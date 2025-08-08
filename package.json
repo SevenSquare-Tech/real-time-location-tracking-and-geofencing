@@ -1,0 +1,44 @@
+{
+  "name": "real-time-location-tracking-and-geofencing",
+  "version": "4.18.9",
+  "description": "The most sophisticated cross-platform background location-tracking & geofencing module with battery-conscious motion-detection intelligence",
+  "scripts": {
+    "build": "yarn run build:expo",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:expo": "rimraf expo/plugin/build && tsc --build ./expo/plugin"
+  },
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@https://github.com/SevenSquare-Tech/real-time-location-tracking-and-geofencing.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "background",
+    "geolocation",
+    "tracking",
+    "geofence",
+    "geofencing"
+  ],
+  "author": "Dev <devnodejsdev025@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/SevenSquare-Tech/real-time-location-tracking-and-geofencing.git/issues"
+  },
+  "homepage": "https://github.com/SevenSquare-Tech/real-time-location-tracking-and-geofencing.git",
+  "dependencies": {
+    "react-native-background-fetch": "~4.2.6"
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "^4.1.0",
+    "@transistorsoft/typedoc-theme": "^2.0.9",
+    "@types/node": "^18.11.5",
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.1.0",
+    "path": "^0.12.7",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2"
+  }
+}
