@@ -10,6 +10,8 @@ The plugin's [Philosophy of Operation](../../wiki/Philosophy-of-Operation) is to
 
 Also available for [Flutter](https://docs.flutter.dev/), [Cordova](https://pub.dev/packages/cordova/versions), [NativeScript](https://docs.nativescript.org/) and pure native package.
 
+[GitHub Text:  Learn to Add Real-Time Location Tracking & Geofencing in React Native.](https://www.sevensquaretech.com/react-native-real-time-location-geofencing-github-code/)
+
 ---
 
 ![Home](./1.png)
